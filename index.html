@@ -2,14 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="styles.css" />
     <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-D8Btx21I.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-DUzvakyU.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-CX4EDM7x.css">
   </head>
   <body>
-    <main></main>
+    <form class="form">
+      <label>
+        <input
+          type="text"
+          name="search-text"
+          placeholder="Search images..."
+          required
+        />
+      </label>
+      <button type="submit">Search</button>
+    </form>
+    <div class="loader"></div>
+    <ul class="gallery"></ul>
 
   </body>
 </html>
+
+<!-- 📂 js ├── 📄 pixabay-api.js   # Функції для HTTP-запитів ├── 📄 render-functions.js   # Функції для оновлення UI 
+
+📄 main.js   # Основна логіка застосунку 📄 index.html  # Головний HTML-файл з формою пошуку та галереєю 📄 styles.css  # Основні стилі для додатка -->
