@@ -57,17 +57,27 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 20px;
   list-style: none;
   padding: 0;
 }
 
 .gallery-item {
-  width: 200px;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+  max-width: 400px;
   text-align: center;
+  margin: 15px;
 }
 
 img {
   width: 100%;
   border-radius: 8px;
+}
+
+.info {
+  display: flex;
 }
