@@ -1,10 +1,10 @@
-import { fetchImages } from './pixabay-api.js';
+import { fetchImages } from './js/pixabay-api.js';
 import {
   renderImages,
   showLoader,
   hideLoader,
   showError,
-} from './render-functions.js';
+} from './js/render-functions.js';
 
 document.querySelector('.form').addEventListener('submit', async event => {
   event.preventDefault();
