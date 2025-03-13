@@ -88,7 +88,10 @@ body {
   padding: 0;
   margin-top: 25px;
   border: 5px solid rgb(186, 188, 191);
-  width: display;
+  max-width: 1200px; /* Обмежує ширину контейнера */
+  width: 100%; /* Щоб адаптувалося до екрана */
+  margin-left: auto; /* Центрує контейнер */
+  margin-right: auto;
 }
 
 .gallery-item {
